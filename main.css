@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#glcanvas {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 1024px;
+    height: 768px;
+}
+
+#info {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 4px 8px;
+    font: 12px monospace;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    white-space: pre;
+    pointer-events: none;
+}
